@@ -11,5 +11,6 @@ if (requireNamespace("tinytest", quietly=TRUE) &&
     ## there are several more granular ways to test files in a tinytest directory,
     ## see its package vignette; tests can also run once the package is installed
     ## using the same command `test_package(pkgName)`, or by director or file
+    suppressMessages(library(bit64))
     tinytest::test_package("nanotime")
 }

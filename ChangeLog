@@ -1,3 +1,9 @@
+2026-04-19  Michael Chirico  <michaelchirico4@gmail.com>
+
+	* tests/tinytest.R: Attach nanotime after bit64 to ensure expected symbol resolution
+	* inst/tinytest/test_nanoduration.R: Idem
+	* inst/tinytest/test_nanoival.R: Idem
+
 2026-03-18  Michael Chirico  <chiricom@google.com>
 
 	* R/nanotime.R: Adapt to changing bit64::as.integer64 API and avoid keep.names=

@@ -1,5 +1,5 @@
-library(nanotime)
 suppressMessages(library(bit64))
+library(nanotime)
 
 extended_tests <- Sys.getenv("CI", "") != ""
 
